@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #7e9dd3;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 20px;
+            position: relative;
+            top: 5px;
+        }
+
+        nav {
+            background-color: #333;
+            position: relative;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 10px;
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #305aa4;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+            background-color: #fff;
+            position: relative;
+        }
+
+        section {
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h2 {
+            color: #000505;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        ul li {
+            background-color: #305aa4;
+            color: white;
+            margin: 10px;
+            padding: 15px 30px;
+            border-radius: 5px;
+            width: 180px;
+            text-align: center;
+            position: relative;
+        }
+
+        ul li:hover {
+            background-color: #1f3d7a;
+        }
+
+        .highlight-box {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .contact-section {
+            position: relative;
+        }
+
+        .contact-section a {
+            text-decoration: none;
+            color: #305aa4;
+            font-weight: bold;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+
+        /* Adding Absolute Positioning */
+        .floating-box {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #ffcc00;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Travel Adventure</h1>
+        <p>Your guide to the best travel destinations!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Tour Packages</a></li>
+            <li><a href="#blog">Travel Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Explore the World</h2>
+            <p class="highlight-box">
+                Join us as we explore stunning destinations around the globe, from beautiful beaches to towering mountains. Your next adventure is just a click away!
+            </p>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations</h2>
+            <ul>
+                <li>Paris, France</li>
+                <li>Tokyo, Japan</li>
+                <li>New York City, USA</li>
+                <li>Cape Town, South Africa</li>
+                <li>Sydney, Australia</li>
+            </ul>
+        </section>
+
+        <section id="packages">
+            <h2>Exclusive Tour Packages</h2>
+            <p>Choose from our handpicked travel packages that fit your budget and interests!</p>
+            <ul>
+                <li>Luxury Europe Tour</li>
+                <li>Adventure in Southeast Asia</li>
+                <li>Family-friendly USA Road Trip</li>
+                <li>Romantic Getaway to Maldives</li>
+            </ul>
+        </section>
+
+        <section id="blog">
+            <h2>Travel Blog</h2>
+            <p>Read about personal travel experiences, tips, and recommendations from fellow travelers!</p>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Have questions or need help planning your next trip? Get in touch with us!</p>
+            <h2><a href="form.html">Go to Registration form</a></h2>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Travel Adventure. All rights reserved.</p>
+    </footer>
+
+    <!-- Floating Offer -->
+    <div class="floating-box">Limited Time Offer!</div>
+
+</body>
+</html>
